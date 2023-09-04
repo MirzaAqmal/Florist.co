@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florist.co</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        box-sizing: content-box;
+    }
+    body {
+        background-color: bisque;
+    }
+    /*HEADER*/
+    .header {
+        text-align: center;
+    }
+    .header > img {
+        width: 100%;
+    }
+    /*BODY*/
+    .body {
+        border-style: solid;
+        width: 75%;
+        overflow: hidden;
+        margin-left: 190px;
+        background-color: whitesmoke;
+        margin-top: 20px;
+    }
+    .body > .tempah {
+        font-size: 10mm;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .content {
+        overflow: hidden;
+    }
+    .content > .text {
+        font-weight: bold;
+        font-size: 5mm;
+        padding: 20px;
+        width: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+        float: left;
+        text-align: justify;
+        border-style: solid;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    .content > .image {
+        float: right;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 5mm;
+    }
+    .content > .image > img {
+        border-style: solid;
+    }
+    .content > .text2 {
+        color: red;
+        font-size: 5mm;
+        font-weight: bold;
+        text-align: center;
+    }
+    .content > .border {
+        border-style: solid;
+        width: 40%;
+        margin-left: 100px;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: grey;
+    }
+    .content > .border > .sale {
+        font-weight: bold;
+        font-size: 5mm;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    }
+    .content > .order {
+        font-size: 5mm;
+        text-align: center;
+        margin-top: 40px;
+        font-weight: bold;
+    }
+    .content > .borderinformation > .information {
+        margin-top: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .content > .borderinformation > .information > input {
+        text-align: center;
+    }
+    .content > .borderinformation {
+        border-style: solid;
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    /*SUBMIT*/
+    .submit {
+        margin-top: 20px;
+        font-weight: bold;
+        width: 100%;
+    }
+    .submit > button {
+        background-color: pink;
+        padding: 10px;
+        font-weight: bold;
+        border-style: solid;
+    }
+    .submit > button:hover {
+        background-color: grey;
+    }
+    /*FOOTER*/
+    .footer {
+        width: 100%;
+        border-style: solid;
+        background-color: paleturquoise;
+        margin-top: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 20px;
+    }
+</style>
+<body>
+    <!--HEADER-->
+    <div class="header">
+        <img src="images/banner.png" alt="Banner">
+    </div>
+    <!--BODY-->
+    <div class="body">
+        <div class="tempah">
+            Tempah Sekarang !!
+        </div>
+        <div class="content">
+            <div class="text">
+                <p>Introduction :</p>
+                <br>
+                Bunga raya atau Hibiscus Rosa- Sinensis adalah bunga kebangsaan Malaysia yang menjadi lambang perpaduan bangsa, agama, dan negara.
+            </div>
+            <div class="image">
+                <img src="images/flower.jpg">
+                <br>
+                Bunga Raya
+            </div>
+            <div class="text2">
+                PROMOTION !!
+            </div>
+            <div class="border">
+                <div class="sale">
+                    BUY 1 FREE 1 
+                    <br>
+                    <br>
+                    ONLY AT RM10 
+                </div>
+            </div>
+            <div class="order">
+                ORDER NOW !
+            </div>
+            <div class="borderinformation">
+                <div class="information">
+                    Nama : 
+                    <br>
+                    <br>
+                    <input type="text" placeholder="NAMA">
+                    <br>
+                    <br>
+                    NO.IC :
+                    <br>
+                    <br>
+                    <input type="text" placeholder="IC">
+                    <br>
+                    <br>
+                    NO.TEL :
+                    <br>
+                    <br>
+                    <input type="text" placeholder="NO.TEL">
+                    <br>
+                    <br>
+                    ALAMAT RUMAH : 
+                    <br>
+                    <br>
+                    <input type="text" placeholder="ALAMAT RUMAH">
+                    <br>
+                    <br>
+                    TARIKH LAHIR :
+                    <br>
+                    <br>
+                    <input type="date">
+                    <!--SUBMIT-->
+                    <div class="submit">
+                        <button>
+                            SUBMIT
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <div class="footer">
+        COPYRIGHT@ FLORIST.CO
+        <br>
+        <br>
+        MUHAMMAD MIRZA AQMAL RAZIQ BIN MIRZA AFFZARD
+        <br>
+        <br>
+        K531MKPD013
+    </div>
+</body>
+</html>
